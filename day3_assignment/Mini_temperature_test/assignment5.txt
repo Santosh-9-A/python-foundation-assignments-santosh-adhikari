@@ -1,0 +1,22 @@
+This question has two parts and brings together functions, modules, and the standard library.
+
+Part-A Build a modual
+Creat a modual (a seperate .py file, save to disk) called temperature_utils.py containing:
+    celsious_to_fahrenheit(c)  returns (c*9/5)+32
+    fahrenheit_to_celsius(f)   returns (f-32)*5/9
+    A constant module_version = "1.0"
+
+Part-B Use your module together with random and datetime
+Back in this vs-code:
+    import your temperature_utils module.
+    use the random module to generate 5 random celsius temperatures between 15 and 40(inclusive)-store them in a list.
+    convert each one to fahrenheit using your module's function, and store the results in a second list (a for loop or map() both work).
+    use the datetime module to print today's date alongside the report, in the format: "Temperature Report - DD - MM - YYYY"
+    Print the celsius list, the fahrenheit list, and temperature_utils.Module_version.
+
+Expected shape of the output (your actual numbers will differ, since they're random):
+
+Temperature Report - 11-08-2026
+Celsius: [22, 35, 18, 40, 27]
+Fahrenheit: [71.6, 95.0, 64.4, 104.0, 80.6]
+Module version: 1.0
